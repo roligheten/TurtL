@@ -1,0 +1,11 @@
+var F;
+var +;
+var -;
+
+func F:penDraw(10);
+func +:penRotate(10);
+func -:penRotate(-10);
+
+rule F:(F+F-F-F+F);
+
+seed (F);
